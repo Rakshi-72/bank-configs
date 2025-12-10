@@ -3,8 +3,8 @@ spring:
     url: ${DATABASE_URL}
     username: ${DATABASE_USERNAME}
     password: ${DATABASE_PASSWORD}
-    driver-class-name: org.postgresql.Driver
-  jpa:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    jpa:
     hibernate:
       ddl-auto: none
     show-sql: true

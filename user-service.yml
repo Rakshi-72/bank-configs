@@ -2,3 +2,4 @@ spring:
   config:
     import:
       - optional:classpath:data-base.yml
+server.port: 8081
