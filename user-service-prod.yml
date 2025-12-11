@@ -3,6 +3,6 @@ spring:
     gcp:
       secretmanager:
         enabled: true
-  #        project-id: bank-480903
+        project-id: bank-480903
   config:
     import: sm://application-properties
