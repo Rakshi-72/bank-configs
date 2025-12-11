@@ -5,4 +5,6 @@ spring:
         enabled: true
         project-id: bank-480903
   config:
-    import: sm://application-properties
+    import: 
+      - sm://application-properties
+      - optional:data-base.yml
