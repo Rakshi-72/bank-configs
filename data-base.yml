@@ -1,8 +1,5 @@
 spring:
   datasource:
-    url: ${database.url}
-    username: ${database.username}
-    password: ${database.password}
     driver-class-name: com.mysql.cj.jdbc.Driver
     jpa:
     hibernate:
@@ -13,7 +10,3 @@ spring:
         format_sql: true
   cache:
     type: redis
-  data:
-    redis:
-      host: ${cache.host}
-      port: ${cache.port}
